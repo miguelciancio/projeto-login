@@ -13,20 +13,24 @@ Telas grandes: acima de 1200px
 
 /* Tablets */
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* Configuracoes gerais */
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
+    /* Configuracoes gerais da secao */
     section#login {
         width: 80vw;
     }
 
+    /* Configuracoes da area da imagem */
     section#login > div#imagem {
         float: left;
         width: 30%;
         height: 100%;
     }
 
+    /* Configuracoes da area do formulario */
     section#login > div#formulario {
         float: right;
         width: 70%;
@@ -35,20 +39,24 @@ Telas grandes: acima de 1200px
 
 /* Dispositivos telas grandes */
 @media screen and (min-width:992px) {
+    /* Configuracoes gerais */
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
     
+    /* Configuracoes gerais da secao */
     section#login {
         width: 950px;
     }
 
+    /* Configuracoes da area da imagem */
     section#login > div#imagem {
         float: right;
         width: 50%;
         height: 100%;
     }
 
+    /* Configuracoes da area do formulario */
     section#login > div#formulario {
         float: left;
         width: 50%;
